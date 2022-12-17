@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tcl/Apollo_8_4G_TMO
+LOCAL_PATH := device/alcatel/Apollo_8_4G_TMO
