@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Apollo_8_4G_TMO device
-$(call inherit-product, device/tcl/Apollo_8_4G_TMO/device.mk)
+$(call inherit-product, device/alcatel/Apollo_8_4G_TMO/device.mk)
 
 PRODUCT_DEVICE := Apollo_8_4G_TMO
 PRODUCT_NAME := twrp_Apollo_8_4G_TMO
