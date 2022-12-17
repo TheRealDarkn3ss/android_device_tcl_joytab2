@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Apollo_8_4G_TMO.mk
+    $(LOCAL_DIR)/twrp_Apollo_8_4G_TMO.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Apollo_8_4G_TMO-user \
-    omni_Apollo_8_4G_TMO-userdebug \
-    omni_Apollo_8_4G_TMO-eng
+    twrp_Apollo_8_4G_TMO-user \
+    twrp_Apollo_8_4G_TMO-userdebug \
+    twrp_Apollo_8_4G_TMO-eng
