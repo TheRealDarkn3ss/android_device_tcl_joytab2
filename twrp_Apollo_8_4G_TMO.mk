@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Twrp stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Apollo_8_4G_TMO device
 $(call inherit-product, device/tcl/Apollo_8_4G_TMO/device.mk)
 
 PRODUCT_DEVICE := Apollo_8_4G_TMO
-PRODUCT_NAME := omni_Apollo_8_4G_TMO
+PRODUCT_NAME := twrp_Apollo_8_4G_TMO
 PRODUCT_BRAND := Alcatel
 PRODUCT_MODEL := 9032W
 PRODUCT_MANUFACTURER := tcl
